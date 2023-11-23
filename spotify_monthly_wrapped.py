@@ -7,7 +7,7 @@ def main():
     # Get Spotify API credentials (I have them in a separate JSON)
     # I suggest you write your secrets this way as well!
     print("Reading secrets...")
-    with open('spotify_secrets.json') as json_data:
+    with open('secrets/spotify_secrets.json') as json_data:
         secrets = json.load(json_data)
 
     CLIENT_ID = secrets["CLIENT_ID"]
